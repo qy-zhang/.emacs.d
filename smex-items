@@ -1,0 +1,34 @@
+
+;; ----- smex-history -----
+(
+ emacs-version
+ package-install
+ package-list-packages
+ goto-line
+ magit-log
+ magit-status
+ package-refresh-contents
+)
+
+;; ----- smex-data -----
+(
+ (emacs-version . 5)
+ (package-list-packages . 15)
+ (global-company-mode . 1)
+ (eval-buffer . 8)
+ (auto-complete-mode . 2)
+ (cedet-version . 3)
+ (package-install . 2)
+ (speedbar . 1)
+ (neotree . 1)
+ (run-python . 2)
+ (elpy-mode . 1)
+ (package-initialize . 1)
+ (elpy-config . 1)
+ (matlab-mode . 2)
+ (toggle-debug-on-error . 2)
+ (package-refresh-contents . 1)
+ (magit-status . 1)
+ (magit-log . 1)
+ (goto-line . 1)
+)

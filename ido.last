@@ -1,0 +1,68 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("E:/Learning/Code/" . "Markdown/")
+ ("d:/Emacs/.emacs.d/" . "my-lisps/")
+ ("d:/Emacs/" . ".emacs.d/")
+ ("F:/Learning/Code/" . "LeetCode/")
+ ("e:/Emacs/.emacs.d/" . "my-lisps/")
+ ("e:/Emacs/" . "workspace/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "E:/Learning/Code/Markdown/"
+ "d:/Emacs/.emacs.d/my-lisps/"
+ "e:/Emacs/workspace/"
+ "e:/Emacs/.emacs.d/my-lisps/"
+ "F:/Learning/Code/LeetCode/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "Daily.org"
+ "Summary.markdown"
+ "wakatime-settings.el"
+ "Demo.cpp"
+ "compile-misc.el"
+ "dev-settings.el"
+ "combinationSum.cpp"
+ "smex-settings.el"
+ "keybinding-settings.el"
+ "matlab-settings.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("E:/Learning/Code/Markdown/" (22441 37547 0 0) "TodoList.org" "Summary.markdown" "org-learning.org" "MultiFreqEstimation.markdown" "Matlabvarargin.markdown" "Emacs YASnippet Config.markdown" "Daily.org" "C内存错误.markdown" "C Language Standard.markdown" "../" "./")
+
+ ("e:/Learning/Code/Markdown/" (22441 12489 0 0) "TodoList.org" "Summary.markdown" "org-learning.org" "MultiFreqEstimation.markdown" "Matlabvarargin.markdown" "Emacs YASnippet Config.markdown" "C内存错误.markdown" "C Language Standard.markdown" "../" "./")
+
+ ("d:/Emacs/.emacs.d/my-lisps/" (22435 23170 0 0) "yasnippet-settings.el" "web-settings.el" "wakatime-settings.el" "w3m-settings.el" "verilog-settings.el" "util.el" "template-settings.el" "sql-settings.el" "smex-settings.el" "slime-settings.el" "shell-settings.el" "python-settings.el" "my-subdirs.el" "my-misc.el" "misc-settings.el" "misc-functions.el" "maxframe-settings.el" "matlab-settings.el" "markdown-settings.el" "macros-settings.el" "latex-settings.el" "keybinding-settings.el" "js-settings.el" "java-settings.el" "idle-highlight-settings.el" "hs-minor-mode-settings.el" "hippie-expand-settings.el" "helm-settings.el" "flycheck-settings.el" "evernote-settings.el" "eval-after-load.el" "edit-settings.el" "edit-misc.el" "dev-settings.el" "compile-misc.el" "cedet-semantic-settings.el" "c-settings.el" "auto-complete-settings.el" "assembly-settings.el" "appearance-settings.el" "all-complete-settings.el" "../" "./")
+
+ ("E:/Learning/Code/LeetCode/" (22436 35651 0 0) "twoSum.cpp" "twoSum.c" "stringToInteger.c" "reverseInteger.c" "regularExpressionMatching.c" "QuickSort.c" "longestSubstring.c" "linearlistImplement.c" "linearlist.h" "linearlist.c" "HuffmanCodingImplement.c" "HuffmanCoding.h" "HuffmanCoding.c" "combinationSum.cpp" "combinationSum.c" "addTwoNumbers.cpp" "addTwoNumbers.c" "../" "./")
+
+ ("E:/Learning/Code/" (22438 63021 0 0) "Markdown/" "LeetCode/" ".git/" "../" "./")
+
+ ("d:/Emacs/.emacs.d/" (22435 21697 0 0) "templates/" "srecode-map.el" "snippets/" "smex-items" "session.104bce4938556ea16140876919393857000000017370036" "server/" "semanticdb/" "my-lisps/" "lisps/" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" "abbrev_defs" "../" "./")
+
+ ("d:/Emacs/" (22435 20985 0 0) "var/" "share/" "libexec/" "bin/" ".emacs.d/" ".emacs" "../" "./")
+
+ ("e:/Emacs/.emacs.d/my-lisps/" (22431 2245 0 0) "yasnippet-settings.el" "web-settings.el" "wakatime-settings.el" "w3m-settings.el" "verilog-settings.el" "util.el" "template-settings.el" "sql-settings.el" "smex-settings.el" "slime-settings.el" "shell-settings.el" "python-settings.el" "my-subdirs.el" "my-misc.el" "misc-settings.el" "misc-functions.el" "maxframe-settings.el" "matlab-settings.el" "markdown-settings.el" "macros-settings.el" "latex-settings.el" "keybinding-settings.el" "js-settings.el" "java-settings.el" "idle-highlight-settings.el" "hs-minor-mode-settings.el" "hippie-expand-settings.el" "helm-settings.el" "flycheck-settings.el" "evernote-settings.el" "eval-after-load.el" "edit-settings.el" "edit-misc.el" "dev-settings.el" "compile-misc.el" "cedet-semantic-settings.el" "c-settings.el" "auto-complete-settings.el" "assembly-settings.el" "appearance-settings.el" "all-complete-settings.el" "../" "./")
+
+ ("F:/Learning/Code/LeetCode/" (22431 2703 0 0) "twoSum.cpp" "twoSum.c" "stringToInteger.c" "reverseInteger.c" "regularExpressionMatching.c" "QuickSort.c" "longestSubstring.c" "linearlistImplement.c" "linearlist.h" "linearlist.c" "HuffmanCodingImplement.c" "HuffmanCoding.h" "HuffmanCoding.c" "combinationSum.cpp" "combinationSum.c" "addTwoNumbers.cpp" "addTwoNumbers.c" ".git/" "../" "./")
+
+ ("F:/Learning/Code/" (22432 1730 0 0) "Markdown/" "LeetCode/" ".vscode/" "../" "./")
+
+ ("f:/Learning/Code/LeetCode/" (22428 3957 0 0) "twoSum.cpp" "twoSum.c" "stringToInteger.c" "reverseInteger.c" "regularExpressionMatching.c" "QuickSort.c" "longestSubstring.c" "linearlistImplement.c" "linearlist.h" "linearlist.c" "HuffmanCodingImplement.c" "HuffmanCoding.h" "HuffmanCoding.c" "combinationSum.cpp" "combinationSum.c" "addTwoNumbers.cpp" "addTwoNumbers.c" ".git/" "../" "./")
+
+ ("e:/Emacs/workspace/" (22427 7636 0 0) "evalute.m" "Demo.py" "Demo.java" "Demo.cpp" "../" "./")
+
+ ("e:/Emacs/" (22427 7883 0 0) "workspace/" "var/" "share/" "SBCL/" "libexec/" "bin/" ".wakatime.log" ".wakatime.db" ".evernote-mode/" ".emacs.d/" ".emacs" "../" "./")
+
+ ("e:/Emacs/.emacs.d/" (22427 7609 0 0) "templates/" "srecode-map.el" "snippets/" "smex-items" "session.104bce4938556ea16140876919393857000000017370036" "semanticdb/" "my-lisps/" "lisps/" "elpa/" "auto-save-list/" "ac-comphist.dat" "abbrev_defs" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

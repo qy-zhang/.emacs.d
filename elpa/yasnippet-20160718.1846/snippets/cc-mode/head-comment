@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: head-comment
+# contributor: zhangqianyi
+# key: /hc
+# --
+/**
+* @File : `(file-name-nondirectory buffer-file-name)`
+* @Author : zhangqianyi
+* @Date : `(current-time-string)`
+* @Description : ${1:format string}
+
+*/
