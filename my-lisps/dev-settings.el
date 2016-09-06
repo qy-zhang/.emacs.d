@@ -8,6 +8,8 @@
 
 (require 'util)
 
+(require 'org-settings)
+
 (require 'compile-misc)
 
 (require 'template-settings)

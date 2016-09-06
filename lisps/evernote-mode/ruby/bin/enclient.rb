@@ -1,4 +1,4 @@
-#! E:/Ruby23-x64/bin/ruby.exe -sWKu
+#! D:/RailsInstaller/Ruby2.2.0/bin/ruby.exe -sWKu
 # -*- coding: utf-8 -*-
 
 #
@@ -302,7 +302,7 @@ module EnClient
   APPLICATION_NAME_XHTML = %|emacs-enclient {:version => 0.41, :editmode => "XHTML"}|
 
   #EVERNOTE_HOST       = "sandbox.evernote.com"
-  EVERNOTE_HOST       = "www.evernote.com"
+  EVERNOTE_HOST       = "app.yinxiang.com"
   USER_STORE_URL      = "https://#{EVERNOTE_HOST}/edam/user"
   NOTE_STORE_URL_BASE = "https://#{EVERNOTE_HOST}/edam/note/"
 
@@ -545,7 +545,7 @@ module EnClient
     include FormatNoteOperation
 
     def exec_impl
-      Formatter.to_ascii @title, @content, *@tag_names
+      Formatter.to_ascii @title, @content, *@tag_names @title.force_encoding Encoding::UTF_8
 
       note = Evernote::EDAM::Type::Note.new
       note.title = @title
@@ -584,8 +584,9 @@ module EnClient
     include FormatNoteOperation
 
     def exec_impl
-      Formatter.to_ascii @title, @notebook_guid, @content, *@tag_names
-
+      #Formatter.to_ascii @title, @notebook_guid, @content, *@tag_names
+	  Formatter.to_ascii @title, @notebook_guid, *@tag_names  # removed parameter content
+	  @content.force_encoding Encoding::UTF_8  # force encoding
       old_note = DBUtils.get_note dm, @guid
 
       note = Evernote::EDAM::Type::Note.new
@@ -595,6 +596,7 @@ module EnClient
       else
         note.title = old_note.title
       end
+      note.title.force_encoding Encoding::UTF_8  # added by Connor Weng
       note.notebookGuid = @notebook_guid
       note.tagNames = @tag_names
       if @edit_mode

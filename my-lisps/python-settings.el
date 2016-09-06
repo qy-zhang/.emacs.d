@@ -27,7 +27,6 @@
 
 (elpy-enable)
 
-;(python-indent-guess-indent-offset 4)
 
 (provide 'python-settings)
 ;;; python-settings.el ends here

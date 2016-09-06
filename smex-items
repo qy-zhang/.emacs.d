@@ -1,34 +1,39 @@
 
 ;; ----- smex-history -----
 (
- emacs-version
- package-install
- package-list-packages
- goto-line
- magit-log
+ gdb
+ eval-buffer
  magit-status
- package-refresh-contents
+ git-rebase-mode
+ semantic-mode
+ elpy-mode
+ package-list-packages
 )
 
 ;; ----- smex-data -----
 (
  (emacs-version . 5)
- (package-list-packages . 15)
+ (package-list-packages . 16)
  (global-company-mode . 1)
- (eval-buffer . 8)
+ (eval-buffer . 11)
  (auto-complete-mode . 2)
  (cedet-version . 3)
  (package-install . 2)
  (speedbar . 1)
  (neotree . 1)
  (run-python . 2)
- (elpy-mode . 1)
+ (elpy-mode . 2)
  (package-initialize . 1)
  (elpy-config . 1)
  (matlab-mode . 2)
  (toggle-debug-on-error . 2)
  (package-refresh-contents . 1)
- (magit-status . 1)
+ (magit-status . 9)
  (magit-log . 1)
  (goto-line . 1)
+ (semantic-mode . 2)
+ (git-rebase-mode . 2)
+ (evernote-browser . 7)
+ (gdb . 1)
+ (gdb-many-windows . 1)
 )

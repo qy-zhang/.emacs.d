@@ -1,0 +1,220 @@
+;; Object LeetCode/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "LeetCode/"
+  :tables
+  (list
+    (semanticdb-table "twoSum.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [377 396])
+            ("vector" include (:system-flag t) nil [397 414])
+            ("unordered_map" include (:system-flag t) nil [415 439])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [441 461])
+            ("twoSum" function
+               (:arguments 
+                  ( ("numbers" variable
+                       (:reference 1
+                        :type ("vector" type
+                             (:template-specifier 
+                                ( ("int" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [482 503])
+                    ("target" variable (:type "int") (reparse-symbol arg-sub-list) [504 515]))                  
+                :type ("vector" type
+                     (:template-specifier 
+                        ( ("int" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [463 1049])
+            ("main" function (:type "int") nil [1051 1328]))          
+      :file "twoSum.cpp"
+      :pointmax 1328
+      :fsize 1384
+      :lastmodtime '(22395 39852 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "longestCommonPrefix.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [196 215])
+            ("string" include (:system-flag t) nil [216 233])
+            ("vector" include (:system-flag t) nil [234 251])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [253 273])
+            ("Solution" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [292 299])
+                    ("longestCommonPrefix" function
+                       (:arguments 
+                          ( ("strs" variable
+                               (:reference 1
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("string" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [328 349]))                          
+                        :type ("string" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [301 660]))                  
+                :type "class")
+                nil [275 663])
+            ("main" function (:type "int") nil [665 894]))          
+      :file "longestCommonPrefix.cpp"
+      :pointmax 895
+      :fsize 949
+      :lastmodtime '(22471 34290 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "threeSum.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [422 441])
+            ("vector" include (:system-flag t) nil [442 459])
+            ("algorithm" include (:system-flag t) nil [460 480])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [482 502])
+            ("Solution" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [521 528])
+                    ("threeSum" function
+                       (:arguments 
+                          ( ("nums" variable
+                               (:reference 1
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("int" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [559 577]))                          
+                        :type ("vector" type
+                             (:template-specifier 
+                                ( ("vector" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [530 1196]))                  
+                :type "class")
+                nil [504 1199])
+            ("main" function (:type "int") nil [1202 1506]))          
+      :file "threeSum.cpp"
+      :pointmax 1507
+      :fsize 1586
+      :lastmodtime '(22477 25233 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "threeSumClosest.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [22 42])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [53 62])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [63 76]))                  
+                :type "int")
+                nil [44 128]))          
+      :file "threeSumClosest.cpp"
+      :pointmax 129
+      :fsize 138
+      :lastmodtime '(22471 58509 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "Demo.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cassert" include (:system-flag t) nil [21 39])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [41 61])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [72 81])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [82 95]))                  
+                :type "int")
+                nil [63 157]))          
+      :file "Demo.cpp"
+      :pointmax 158
+      :fsize 169
+      :lastmodtime '(22476 51623 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "stringToInteger.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [465 483])
+            ("stdlib.h" include (:system-flag t) nil [484 503])
+            ("stringToInteger" function
+               (:arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [525 541]))                  
+                :type "int")
+                nil [505 1073])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1084 1093])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1094 1113]))                  
+                :type "int")
+                nil [1075 1130]))          
+      :file "stringToInteger.c"
+      :pointmax 1130
+      :fsize 1173
+      :lastmodtime '(22404 57973 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "twoSum.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [375 393])
+            ("stdlib.h" include (:system-flag t) nil [394 413])
+            ("twoSum" function
+               (:pointer 1
+                :arguments 
+                  ( ("nums" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [427 437])
+                    ("numsSize" variable (:type "int") (reparse-symbol arg-sub-list) [438 451])
+                    ("target" variable (:type "int") (reparse-symbol arg-sub-list) [452 463]))                  
+                :type "int")
+                nil [415 693])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [704 713])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [714 733]))                  
+                :type "int")
+                nil [695 993]))          
+      :file "twoSum.c"
+      :pointmax 994
+      :fsize 1040
+      :lastmodtime '(22415 9494 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_e!Learning!Code!LeetCode!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

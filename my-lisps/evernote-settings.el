@@ -28,7 +28,7 @@
 
 (setq evernote-enml-formatter-command '("w3m" "-dump" "-I" "UTF8" "-O" "UTF8"))
 
-(setq evernote-developer-token "S=s72:U=e95118:E=15d7c96808a:C=15624e55300:P=1cd:A=en-devtoken:V=2:H=02c3bf39d173e3459a8ee2e53e3234d1")
+(setq evernote-developer-token "S=s72:U=e95118:E=15e418a1193:C=156e9d8e528:P=1cd:A=en-devtoken:V=2:H=6a2215c4562f392422cdbfcfce40cfef")
 
 (provide 'evernote-settings)
 ;;; evernote-settings.el ends here

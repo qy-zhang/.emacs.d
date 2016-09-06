@@ -1,0 +1,42 @@
+;; Object workspace/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "workspace/"
+  :tables
+  (list
+    (semanticdb-table "Demo.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [21 48]))          
+      :file "Demo.c"
+      :pointmax 48
+      :fsize 53
+      :lastmodtime '(22472 5528 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "Demo.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cassert" include (:system-flag t) nil [21 39])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [41 61])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [72 81])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [82 95]))                  
+                :type "int")
+                nil [63 157]))          
+      :file "Demo.cpp"
+      :pointmax 158
+      :fsize 169
+      :lastmodtime '(22476 51497 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_d!Program Files!Sublime Text 3!workspace!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

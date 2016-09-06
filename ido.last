@@ -2,6 +2,11 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("e:/Learning/" . "Code/")
+ ("d:/Program Files/Sublime Text 3/" . "workspace/")
+ ("d:/Program Files/" . "Sublime Text 3/")
+ ("d:/" . "Program Files/")
+ ("e:/Learning/Code/" . "LeetCode/")
  ("E:/Learning/Code/" . "Markdown/")
  ("d:/Emacs/.emacs.d/" . "my-lisps/")
  ("d:/Emacs/" . ".emacs.d/")
@@ -13,7 +18,12 @@
 ;; ----- ido-work-directory-list -----
 (
  "E:/Learning/Code/Markdown/"
+ "e:/Learning/Code/LeetCode/"
  "d:/Emacs/.emacs.d/my-lisps/"
+ "E:/Learning/Code/LeetCode/"
+ "e:/Learning/Code/Markdown/"
+ "d:/Program Files/Sublime Text 3/workspace/"
+ "E:/Learning/Code/Program/"
  "e:/Emacs/workspace/"
  "e:/Emacs/.emacs.d/my-lisps/"
  "F:/Learning/Code/LeetCode/"
@@ -21,33 +31,53 @@
 
 ;; ----- ido-work-file-list -----
 (
- "Daily.org"
- "Summary.markdown"
- "wakatime-settings.el"
- "Demo.cpp"
+ "TodoList.org"
+ "twoSum.c"
+ "stringToInteger.c"
+ "org-settings.el"
+ "threeSum.cpp"
  "compile-misc.el"
  "dev-settings.el"
- "combinationSum.cpp"
- "smex-settings.el"
- "keybinding-settings.el"
- "matlab-settings.el"
+ "org-learning.org"
+ "Demo.cpp"
+ "Demo.c"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("E:/Learning/Code/Markdown/" (22441 37547 0 0) "TodoList.org" "Summary.markdown" "org-learning.org" "MultiFreqEstimation.markdown" "Matlabvarargin.markdown" "Emacs YASnippet Config.markdown" "Daily.org" "C内存错误.markdown" "C Language Standard.markdown" "../" "./")
+ ("e:/Learning/Code/Markdown/" (22478 7628 0 0) "TodoList.org" "Summary.markdown" "org-learning.org" "MultiFreqEstimation.markdown" "Matlabvarargin.markdown" "EmacsMagit.markdown" "EmacsEvernote.markdown" "Emacs YASnippet Config.markdown" "Daily.org" "C内存错误.markdown" "C Language Standard.markdown" "../" "./")
 
- ("e:/Learning/Code/Markdown/" (22441 12489 0 0) "TodoList.org" "Summary.markdown" "org-learning.org" "MultiFreqEstimation.markdown" "Matlabvarargin.markdown" "Emacs YASnippet Config.markdown" "C内存错误.markdown" "C Language Standard.markdown" "../" "./")
+ ("E:/Learning/Code/Markdown/" (22477 25355 0 0) "TodoList.org" "Summary.markdown" "org-learning.org" "MultiFreqEstimation.markdown" "Matlabvarargin.markdown" "EmacsMagit.markdown" "EmacsEvernote.markdown" "Emacs YASnippet Config.markdown" "Daily.org" "C内存错误.markdown" "C Language Standard.markdown" "../" "./")
 
- ("d:/Emacs/.emacs.d/my-lisps/" (22435 23170 0 0) "yasnippet-settings.el" "web-settings.el" "wakatime-settings.el" "w3m-settings.el" "verilog-settings.el" "util.el" "template-settings.el" "sql-settings.el" "smex-settings.el" "slime-settings.el" "shell-settings.el" "python-settings.el" "my-subdirs.el" "my-misc.el" "misc-settings.el" "misc-functions.el" "maxframe-settings.el" "matlab-settings.el" "markdown-settings.el" "macros-settings.el" "latex-settings.el" "keybinding-settings.el" "js-settings.el" "java-settings.el" "idle-highlight-settings.el" "hs-minor-mode-settings.el" "hippie-expand-settings.el" "helm-settings.el" "flycheck-settings.el" "evernote-settings.el" "eval-after-load.el" "edit-settings.el" "edit-misc.el" "dev-settings.el" "compile-misc.el" "cedet-semantic-settings.el" "c-settings.el" "auto-complete-settings.el" "assembly-settings.el" "appearance-settings.el" "all-complete-settings.el" "../" "./")
+ ("E:/Learning/Code/LeetCode/" (22477 25238 0 0) "twoSum.cpp" "twoSum.c" "threeSumClosest.cpp" "threeSum.exe" "threeSum.cpp" "stringToInteger.c" "reverseInteger.c" "regularExpressionMatching.c" "QuickSort.c" "longestSubstring.c" "longestCommonPrefix.cpp" "linearlistImplement.c" "linearlist.h" "linearlist.c" "HuffmanCodingImplement.c" "HuffmanCoding.h" "HuffmanCoding.c" "Demo.exe" "Demo.cpp" "combinationSum.cpp" "combinationSum.c" "addTwoNumbers.cpp" "addTwoNumbers.c" "../" "./")
 
- ("E:/Learning/Code/LeetCode/" (22436 35651 0 0) "twoSum.cpp" "twoSum.c" "stringToInteger.c" "reverseInteger.c" "regularExpressionMatching.c" "QuickSort.c" "longestSubstring.c" "linearlistImplement.c" "linearlist.h" "linearlist.c" "HuffmanCodingImplement.c" "HuffmanCoding.h" "HuffmanCoding.c" "combinationSum.cpp" "combinationSum.c" "addTwoNumbers.cpp" "addTwoNumbers.c" "../" "./")
+ ("e:/Learning/Code/LeetCode/" (22477 25238 0 0) "twoSum.cpp" "twoSum.c" "threeSumClosest.cpp" "threeSum.exe" "threeSum.cpp" "stringToInteger.c" "reverseInteger.c" "regularExpressionMatching.c" "QuickSort.c" "longestSubstring.c" "longestCommonPrefix.cpp" "linearlistImplement.c" "linearlist.h" "linearlist.c" "HuffmanCodingImplement.c" "HuffmanCoding.h" "HuffmanCoding.c" "Demo.exe" "Demo.cpp" "combinationSum.cpp" "combinationSum.c" "addTwoNumbers.cpp" "addTwoNumbers.c" "../" "./")
 
- ("E:/Learning/Code/" (22438 63021 0 0) "Markdown/" "LeetCode/" ".git/" "../" "./")
+ ("d:/Emacs/.emacs.d/my-lisps/" (22477 25159 0 0) "yasnippet-settings.el" "web-settings.el" "wakatime-settings.el" "w3m-settings.el" "verilog-settings.el" "util.el" "template-settings.el" "sql-settings.el" "smex-settings.el" "slime-settings.el" "shell-settings.el" "python-settings.el" "org-settings.el" "my-subdirs.el" "my-misc.el" "misc-settings.el" "misc-functions.el" "maxframe-settings.el" "matlab-settings.el" "markdown-settings.el" "macros-settings.el" "latex-settings.el" "keybinding-settings.el" "js-settings.el" "java-settings.el" "idle-highlight-settings.el" "hs-minor-mode-settings.el" "hippie-expand-settings.el" "helm-settings.el" "flycheck-settings.el" "evernote-settings.el" "eval-after-load.el" "edit-settings.el" "edit-misc.el" "dev-settings.el" "compile-misc.el" "cedet-semantic-settings.el" "c-settings.el" "auto-complete-settings.el" "auto-complete+.el" "assembly-settings.el" "appearance-settings.el" "all-complete-settings.el" "../" "./")
 
- ("d:/Emacs/.emacs.d/" (22435 21697 0 0) "templates/" "srecode-map.el" "snippets/" "smex-items" "session.104bce4938556ea16140876919393857000000017370036" "server/" "semanticdb/" "my-lisps/" "lisps/" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" "abbrev_defs" "../" "./")
+ ("d:/Program Files/Sublime Text 3/workspace/" (22476 51510 0 0) "Demo.cpp" "Demo.c" "../" "./")
 
- ("d:/Emacs/" (22435 20985 0 0) "var/" "share/" "libexec/" "bin/" ".emacs.d/" ".emacs" "../" "./")
+ ("e:/Learning/" (22470 55065 0 0) "Reading/" "Code/" "../" "./")
+
+ ("d:/Program Files/Sublime Text 3/Packages/" (22468 64442 0 0) "YAML.sublime-package" "XML.sublime-package" "Vintage.sublime-package" "Theme - Default.sublime-package" "Textile.sublime-package" "Text.sublime-package" "TCL.sublime-package" "SQL.sublime-package" "ShellScript.sublime-package" "Scala.sublime-package" "Rust.sublime-package" "Ruby.sublime-package" "RestructuredText.sublime-package" "Regular Expressions.sublime-package" "Rails.sublime-package" "R.sublime-package" "Python.sublime-package" "PHP.sublime-package" "Perl.sublime-package" "Pascal.sublime-package" "OCaml.sublime-package" "Objective-C.sublime-package" "Matlab.sublime-package" "Markdown.sublime-package" "Makefile.sublime-package" "Lua.sublime-package" "Lisp.sublime-package" "LaTeX.sublime-package" "Language - English.sublime-package" "JavaScript.sublime-package" "Java.sublime-package" "HTML.sublime-package" "Haskell.sublime-package" "Groovy.sublime-package" "Graphviz.sublime-package" "Go.sublime-package" "Erlang.sublime-package" "Diff.sublime-package" "Default.sublime-package" "D.sublime-package" "CSS.sublime-package" "Color Scheme - Default.sublime-package" "Clojure.sublime-package" "C++.sublime-package" "C#.sublime-package" "Batch File.sublime-package" "ASP.sublime-package" "AppleScript.sublime-package" "ActionScript.sublime-package" "../" "./")
+
+ ("d:/Program Files/Sublime Text 3/" (22469 4655 0 0) "workspace/" "update_installer.exe" "unins000.msg" "unins000.exe" "unins000.dat" "sublime_text.exe" "sublime_plugin.py" "sublime.py" "subl.exe" "python33.dll" "python3.3.zip" "plugin_host.exe" "Packages/" "msvcr100.dll" "crash_reporter.exe" "changelog.txt" "../" "./")
+
+ ("d:/Program Files/" (22472 60794 0 0) "YoukuClient/" "UltraISO/" "Thunder/" "Tencent/" "Sublime Text 3/" "SourceTree/" "SharpKeys/" "PotPlayer/" "Portable Applications/" "Picasa3/" "Nutstore/" "Notepad++/" "Netease/" "MultiMarkdown/" "Mozilla Firefox/" "Microsoft VS Code/" "Microsoft Visual Studio 14.0/" "Microsoft Office/" "MATLAB/" "LLVM/" "JetBrains/" "Java/" "IrfanView/" "HUST/" "Git/" "Foxmail 7.2/" "Foxit Reader/" "Everything/" "Evernote/" "Dict/" "CodeBlocks/" "CMake/" "Baidu/" "360/" "../" "./")
+
+ ("d:/Emacs/" (22473 12594 0 0) "var/" "share/" "libexec/" "bin/" ".wakatime.log" ".wakatime.db" ".evernote-mode.log" ".evernote-mode/" ".emacs.d/" ".emacs" "../" "./")
+
+ ("d:/Emacs/.emacs.d/" (22473 8189 0 0) "templates/" "srecode-map.el" "snippets/" "smex-items" "session.104bce4938556ea16140876919393857000000017370036" "server/" "semanticdb/" "my-lisps/" "lisps/" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" "abbrev_defs" ".git/" "../" "./")
+
+ ("e:/Learning/Code/" (22471 53760 0 0) "Markdown/" "LeetCode/" ".gitignore" ".git/" "../" "./")
+
+ ("d:/Emacs/bin/" (22468 63033 0 0) "zlib1.dll" "runemacs.exe" "libXpm-noX4.dll" "libxml2-2.dll" "libwinpthread-1.dll" "libtiffxx-5.dll" "libtiff-5.dll" "libtasn1-6.dll" "librsvg-2-2.dll" "libpng16-16.dll" "libpixman-1-0.dll" "libpangowin32-1.0-0.dll" "libpangoft2-1.0-0.dll" "libpangocairo-1.0-0.dll" "libpango-1.0-0.dll" "libp11-kit-0.dll" "libnettle-4-7.dll" "liblzma-5.dll" "libjpeg-8.dll" "libjbig-0.dll" "libintl-8.dll" "libiconv-2.dll" "libhogweed-2-5.dll" "libharfbuzz-icu-0.dll" "libharfbuzz-gobject-0.dll" "libharfbuzz-0.dll" "libgomp-1.dll" "libgobject-2.0-0.dll" "libgnutlsxx-28.dll" "libgnutls-openssl-27.dll" "libgnutls-28.dll" "libgmp-10.dll" "libgmodule-2.0-0.dll" "libglib-2.0-0.dll" "libgio-2.0-0.dll" "libgif-7.dll" "libgdk_pixbuf-2.0-0.dll" "libgcc_s_seh-1.dll" "libfreetype-6.dll" "libfontconfig-1.dll" "libffi-6.dll" "libexpat-1.dll" "libdbus-1-3.dll" "libcroco-0.6-3.dll" "libcairo-script-interpreter-2.dll" "libcairo-gobject-2.dll" "libcairo-2.dll" "libbz2-1.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+
+ ("E:/Learning/Code/" (22471 53760 0 0) "Markdown/" "LeetCode/" ".gitignore" ".git/" "../" "./")
+
+ ("E:/Learning/Code/Program/" (22470 51630 0 0) "stringDifference.py" "longestCommonPrefix.py" "../" "./")
+
+ ("e:/Learning/Code/Program/" (22470 39086 0 0) "stringDifference.py" "../" "./")
 
  ("e:/Emacs/.emacs.d/my-lisps/" (22431 2245 0 0) "yasnippet-settings.el" "web-settings.el" "wakatime-settings.el" "w3m-settings.el" "verilog-settings.el" "util.el" "template-settings.el" "sql-settings.el" "smex-settings.el" "slime-settings.el" "shell-settings.el" "python-settings.el" "my-subdirs.el" "my-misc.el" "misc-settings.el" "misc-functions.el" "maxframe-settings.el" "matlab-settings.el" "markdown-settings.el" "macros-settings.el" "latex-settings.el" "keybinding-settings.el" "js-settings.el" "java-settings.el" "idle-highlight-settings.el" "hs-minor-mode-settings.el" "hippie-expand-settings.el" "helm-settings.el" "flycheck-settings.el" "evernote-settings.el" "eval-after-load.el" "edit-settings.el" "edit-misc.el" "dev-settings.el" "compile-misc.el" "cedet-semantic-settings.el" "c-settings.el" "auto-complete-settings.el" "assembly-settings.el" "appearance-settings.el" "all-complete-settings.el" "../" "./")
 
