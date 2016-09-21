@@ -129,30 +129,7 @@
       :fsize 138
       :lastmodtime '(22471 58509 0 0)
       :unmatched-syntax nil)
-    (semanticdb-table "Demo.cpp"
-      :major-mode 'c++-mode
-      :tags 
-        '( ("iostream" include (:system-flag t) nil [1 20])
-            ("cassert" include (:system-flag t) nil [21 39])
-            ("std" using (:type ("std" type
-                 (:prototype t
-                  :type "namespace")
-                  nil nil)) nil [41 61])
-            ("main" function
-               (:arguments 
-                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [72 81])
-                    ("argv" variable
-                       (:pointer 1
-                        :dereference 1
-                        :type "char")
-                        (reparse-symbol arg-sub-list) [82 95]))                  
-                :type "int")
-                nil [63 157]))          
-      :file "Demo.cpp"
-      :pointmax 158
-      :fsize 169
-      :lastmodtime '(22476 51623 0 0)
-      :unmatched-syntax nil)
+
     (semanticdb-table "stringToInteger.c"
       :major-mode 'c-mode
       :tags 
@@ -214,7 +191,111 @@
       :pointmax 994
       :fsize 1040
       :lastmodtime '(22415 9494 0 0)
-      :unmatched-syntax nil))
+      :unmatched-syntax nil)
+    (semanticdb-table "regularExpressionMatching.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [13 31]))          
+      :file "regularExpressionMatching.c"
+      :pointmax 33
+      :fsize 39
+      :lastmodtime '(22413 36395 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "longestSubstring.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [477 495])
+            ("stdlib.h" include (:system-flag t) nil [496 515])
+            ("string.h" include (:system-flag t) nil [516 535])
+            ("longestSubstring" function
+               (:arguments 
+                  ( ("s" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [558 566]))                  
+                :type "int")
+                nil [537 927])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [938 947])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [948 967]))                  
+                :type "int")
+                nil [929 1098]))          
+      :file "longestSubstring.c"
+      :pointmax 1098
+      :fsize 1148
+      :lastmodtime '(22395 42696 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "stringIndex.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string.h" include (:system-flag t) nil [20 39])
+            ("index" function
+               (:arguments 
+                  ( ("s" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [127 136])
+                    ("sLen" variable (:type "int") (reparse-symbol arg-sub-list) [137 146])
+                    ("t" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [147 156])
+                    ("tLen" variable (:type "int") (reparse-symbol arg-sub-list) [157 166])
+                    ("pos" variable (:type "int") (reparse-symbol arg-sub-list) [167 175]))                  
+                :type "int")
+                nil [117 549])
+            ("main" function (:type "int") nil [551 586]))          
+      :file "stringIndex.c"
+      :pointmax 587
+      :fsize 842
+      :lastmodtime '(22497 11824 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "stringIndex.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [22 42])
+            ("stringIndex" function
+               (:arguments 
+                  ( ("s" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [283 292])
+                    ("t" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [293 302])
+                    ("pos" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [303 320]))                  
+                :type "int")
+                nil [267 543])
+            ("getNext" function
+               (:arguments 
+                  ( ("t" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [558 567])
+                    ("next" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [568 579]))                  
+                :type "void")
+                nil [545 1000])
+            ("stringIndexKMP" function
+               (:arguments 
+                  ( ("s" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1021 1030])
+                    ("t" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1031 1040])
+                    ("pos" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1041 1058]))                  
+                :type "int")
+                nil [1002 1360])
+            ("main" function (:type "int") nil [1362 1616]))          
+      :file "stringIndex.cpp"
+      :pointmax 1617
+      :fsize 1871
+      :lastmodtime '(22497 11840 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "stringIndex.py"
+      :major-mode 'python-mode
+      :tags nil
+      :file "stringIndex.py"
+      :pointmax 4
+      :fsize 403
+      :lastmodtime '(22495 17620 0 0)
+      :unmatched-syntax '(($EOI 4 . 4))))
   :file "!drive_e!Learning!Code!LeetCode!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

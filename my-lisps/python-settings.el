@@ -25,6 +25,8 @@
 ;;; Code:
 
 
+;(setq python-shell-interpreter "D:\Python27\python.exe")
+
 (elpy-enable)
 
 

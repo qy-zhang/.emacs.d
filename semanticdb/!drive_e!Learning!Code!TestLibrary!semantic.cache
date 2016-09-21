@@ -1,0 +1,44 @@
+;; Object TestLibrary/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "TestLibrary/"
+  :tables
+  (list
+    (semanticdb-table "cPrintfEscape.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [261 279])
+            ("string.h" include (:system-flag t) nil [280 299])
+            ("main" function (:type "int") nil [301 427]))          
+      :file "cPrintfEscape.c"
+      :pointmax 428
+      :fsize 550
+      :lastmodtime '(22479 64385 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "cStrcat.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string.h" include (:system-flag t) nil [20 39])
+            ("main" function (:type "int") nil [41 225]))          
+      :file "cStrcat.c"
+      :pointmax 226
+      :fsize 241
+      :lastmodtime '(22480 2678 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "cFuncVarible.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("myString" function
+               (:pointer 1
+                :type "char")
+                nil [21 214])
+            ("main" function (:type "int") nil [215 275]))          
+      :file "cFuncVarible.c"
+      :pointmax 276
+      :fsize 293
+      :lastmodtime '(22480 3499 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_e!Learning!Code!TestLibrary!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

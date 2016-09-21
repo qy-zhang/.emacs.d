@@ -1,0 +1,104 @@
+;; Object test/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "test/"
+  :tables
+  (list
+    (semanticdb-table "readWav.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("readWav.h" include nil nil [41 61])
+            ("riff_header" variable (:type ("RIFF_HEADER" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [109 333])
+            ("RIFF_HEADER" type
+               (:members 
+                  ( ("szRiffID" variable
+                       (:dereference 1
+                        :type "unsigned char")
+                        (reparse-symbol classsubparts) [146 178])
+                    ("dwRiffSize" variable (:type "unsigned long") (reparse-symbol classsubparts) [206 237])
+                    ("szRiffFormat" variable
+                       (:dereference 1
+                        :type "unsigned char")
+                        (reparse-symbol classsubparts) [258 294]))                  
+                :type "struct")
+                nil [109 333])
+            ("fmt_block" variable (:type ("FMT_BLOCK" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [335 824])
+            ("FMT_BLOCK" type
+               (:members 
+                  ( ("szFmtID" variable
+                       (:dereference 1
+                        :type "unsigned char")
+                        (reparse-symbol classsubparts) [368 399])
+                    ("dwFmtSize" variable (:type "unsigned long") (reparse-symbol classsubparts) [425 455])
+                    ("wFormatTag" variable (:type "unsigned short") (reparse-symbol classsubparts) [470 501])
+                    ("wChannels" variable (:type "unsigned short") (reparse-symbol classsubparts) [529 559])
+                    ("dwSamplesPerSec" variable (:type "unsigned long") (reparse-symbol classsubparts) [579 615])
+                    ("dwAvgBytesPerSec" variable (:type "unsigned long") (reparse-symbol classsubparts) [624 661])
+                    ("wBlockAlign" variable (:type "unsigned short") (reparse-symbol classsubparts) [691 723])
+                    ("wBitsPerSample" variable (:type "unsigned short") (reparse-symbol classsubparts) [761 796]))                  
+                :type "struct")
+                nil [335 824])
+            ("fact_block" variable (:type ("FACT_BLOCK" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [826 945])
+            ("FACT_BLOCK" type
+               (:members 
+                  ( ("szFactID" variable
+                       (:dereference 1
+                        :type "unsigned char")
+                        (reparse-symbol classsubparts) [847 879])
+                    ("dwFactSize" variable (:type "unsigned long") (reparse-symbol classsubparts) [901 932]))                  
+                :type "struct")
+                nil [826 945])
+            ("data_block" variable (:type ("DATA_BLOCK" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [947 1076])
+            ("DATA_BLOCK" type
+               (:members 
+                  ( ("szDataID" variable
+                       (:dereference 1
+                        :type "unsigned char")
+                        (reparse-symbol classsubparts) [982 1012])
+                    ("dwDataSize" variable (:type "unsigned long") (reparse-symbol classsubparts) [1034 1063]))                  
+                :type "struct")
+                nil [947 1076])
+            ("readWav" function
+               (:arguments 
+                  ( ("inputPath" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1096 1112]))                  
+                :type ("dataInfo" type (:type "class") nil nil))
+                nil [1079 2544])
+            ("wavDataProcess" function
+               (:pointer 1
+                :arguments 
+                  ( ("data" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [2765 2778])
+                    ("len" variable (:type "int") (reparse-symbol arg-sub-list) [2779 2787])
+                    ("wChannels" variable (:type "int") (reparse-symbol arg-sub-list) [2788 2802]))                  
+                :type "double")
+                nil [2742 3056]))          
+      :file "readWav.c"
+      :pointmax 3059
+      :fsize 3494
+      :lastmodtime '(22469 5604 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "readWav.h"
+      :file "readWav.h"
+      :fsize 621
+      :lastmodtime '(22469 5604 0 0)))
+  :file "!drive_d!Program Files!Microsoft Visual Studio 14.0!workspace!AudioRealTimeProcessSystem!test!test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

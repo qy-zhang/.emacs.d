@@ -1,0 +1,137 @@
+;; Object MFE/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "MFE/"
+  :tables
+  (list
+    (semanticdb-table "MFE.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [1 20])
+            ("math.h" include (:system-flag t) nil [21 38])
+            ("kiss_fft.h" include (:system-flag t) nil [39 60])
+            ("NTEMPLATE" variable (:constant-flag t) nil [70 79])
+            ("FFTSIZE" variable (:constant-flag t) nil [106 113])
+            ("SPECTRUMLENGTH" variable (:constant-flag t) nil [136 150])
+            ("HOPSIZE" variable (:constant-flag t) nil [184 191])
+            ("FRAMESIZE" variable (:constant-flag t) nil [204 213])
+            ("BETA" variable (:constant-flag t) nil [243 247])
+            ("NITER" variable (:constant-flag t) nil [278 283])
+            ("THRESH" variable (:constant-flag t) nil [313 319])
+            ("INITFORONE" variable (:constant-flag t) nil [355 365])
+            ("INITFORZERO" variable (:constant-flag t) nil [399 410])
+            ("multiF0Estimation" function
+               (:arguments 
+                  ( ("xFrame" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [648 663])
+                    ("templateData" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [664 685])
+                    ("H0Flag" variable (:type "int") (reparse-symbol arg-sub-list) [686 697])
+                    ("H0" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [698 709])
+                    ("pianoRoll" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [710 725]))                  
+                :type "void")
+                nil [625 1686])
+            ("spectrumOfFrame" function
+               (:arguments 
+                  ( ("xFrame" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1906 1921])
+                    ("spectrum" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1922 1939]))                  
+                :type "void")
+                nil [1885 81067])
+            ("nmf_beta" function
+               (:arguments 
+                  ( ("data" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [81393 81406])
+                    ("rows" variable (:type "int") (reparse-symbol arg-sub-list) [81407 81416])
+                    ("column" variable (:type "int") (reparse-symbol arg-sub-list) [81417 81428])
+                    ("W" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [81429 81439])
+                    ("H" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [81440 81450])
+                    ("H0Flag" variable (:type "int") (reparse-symbol arg-sub-list) [81451 81462])
+                    ("H0" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [81463 81474])
+                    ("beta" variable (:type "double") (reparse-symbol arg-sub-list) [81475 81487])
+                    ("maxiter" variable (:type "int") (reparse-symbol arg-sub-list) [81488 81500]))                  
+                :type "void")
+                nil [81379 83415])
+            ("computeH0" function
+               (:arguments 
+                  ( ("H0" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [83845 83856])
+                    ("midiData" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [83857 83874])
+                    ("midiLen" variable (:type "int") (reparse-symbol arg-sub-list) [83875 83887])
+                    ("templateNum" variable (:type "int") (reparse-symbol arg-sub-list) [83888 83904])
+                    ("Tscore" variable (:type "double") (reparse-symbol arg-sub-list) [83905 83919]))                  
+                :type "void")
+                nil [83830 84768]))          
+      :file "MFE.c"
+      :pointmax 84770
+      :fsize 85690
+      :lastmodtime '(22494 15877 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("NTEMPLATE" . ((number "265" 80 . 83)))
+          ("NITER" . ((number "15" 284 . 286)))
+          ("FFTSIZE" . ((number "4096" 114 . 118)))
+          ("BETA" . ((number "0.6" 248 . 251)))
+          ("INITFORZERO" . ((number "0.60315" 411 . 418)))
+          ("THRESH" . ((number "22.6920" 320 . 327)))
+          ("FRAMESIZE" . ((number "4096" 214 . 218)))
+          ("HOPSIZE" . ((number "441" 192 . 195)))
+          ("SPECTRUMLENGTH" . ((number "2049" 151 . 155)))
+          ("INITFORONE" . ((number "70.1359" 366 . 373)))
+          )
+)
+    (semanticdb-table "kiss_fft.h"
+      :file "kiss_fft.h"
+      :fsize 3457
+      :lastmodtime '(22469 5604 0 0))
+    (semanticdb-table "MFEinterface.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [1 20])
+            ("MFEinterface" function
+               (:pointer 1
+                :arguments 
+                  ( ("originWav" variable
+                       (:pointer 1
+                        :type "short")
+                        (reparse-symbol arg-sub-list) [224 241]))                  
+                :type "int")
+                nil [206 280]))          
+      :file "MFEinterface.c"
+      :pointmax 281
+      :fsize 443
+      :lastmodtime '(22494 17183 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_d!Program Files!Microsoft Visual Studio 14.0!workspace!MFE!MFE!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

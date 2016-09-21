@@ -4,11 +4,12 @@
 #key: \brief
 #group: doxygen
 # --
-/**
- *  \brief ${1:function description}
- ${2:*
- *  ${3:Detailed description}
+/*!
+ * \brief ${1:function description}
  *
- }*  \param ${4:param}
- *  \return ${5:return type}
+ * \Author : zhangqianyi
+ * \Date : `(current-time-string)``
+ *
+ * \param ${2:param}
+ * \return ${3:return type}
  */

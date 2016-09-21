@@ -1,12 +1,12 @@
 
 ;; ----- smex-history -----
 (
+ magit-status
+ company-mode
  gdb
  eval-buffer
- magit-status
  git-rebase-mode
  semantic-mode
- elpy-mode
  package-list-packages
 )
 
@@ -28,7 +28,7 @@
  (matlab-mode . 2)
  (toggle-debug-on-error . 2)
  (package-refresh-contents . 1)
- (magit-status . 9)
+ (magit-status . 11)
  (magit-log . 1)
  (goto-line . 1)
  (semantic-mode . 2)
@@ -36,4 +36,6 @@
  (evernote-browser . 7)
  (gdb . 1)
  (gdb-many-windows . 1)
+ (company-mode . 2)
+ (semantic-ia-fast-jump . 2)
 )
