@@ -14,7 +14,7 @@
       (let ((extension (file-name-extension file)))
         (cond
          ((equal extension "cpp")
-          (compile (format "g++ -g -Wall -std=c++0x %s -o %s" file (file-name-base))))
+          (compile (format "g++ -g -Wall -std=c++11 %s -o %s" file (file-name-base))))
          ((equal extension "c")
           (compile (format "gcc -g -Wall %s -o %s" file (file-name-base))))
          ((equal extension "java")

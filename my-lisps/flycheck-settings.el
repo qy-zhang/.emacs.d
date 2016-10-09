@@ -30,6 +30,5 @@
 ;; flycheck-mode
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
-
 (provide 'flycheck-settings)
 ;;; flycheck-settings.el ends here

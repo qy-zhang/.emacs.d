@@ -29,12 +29,12 @@
                         ( ("int" type nil nil nil))                        
                       :type "class")
                       nil nil))
-                nil [463 1049])
-            ("main" function (:type "int") nil [1051 1328]))          
+                nil [463 1041])
+            ("main" function (:type "int") nil [1043 1316]))          
       :file "twoSum.cpp"
-      :pointmax 1328
-      :fsize 1384
-      :lastmodtime '(22395 39852 0 0)
+      :pointmax 1317
+      :fsize 1483
+      :lastmodtime '(22500 61863 0 0)
       :unmatched-syntax nil)
     (semanticdb-table "longestCommonPrefix.cpp"
       :major-mode 'c++-mode
@@ -129,7 +129,6 @@
       :fsize 138
       :lastmodtime '(22471 58509 0 0)
       :unmatched-syntax nil)
-
     (semanticdb-table "stringToInteger.c"
       :major-mode 'c-mode
       :tags 
@@ -231,26 +230,6 @@
       :fsize 1148
       :lastmodtime '(22395 42696 0 0)
       :unmatched-syntax nil)
-    (semanticdb-table "stringIndex.c"
-      :major-mode 'c-mode
-      :tags 
-        '( ("stdio.h" include (:system-flag t) nil [1 19])
-            ("string.h" include (:system-flag t) nil [20 39])
-            ("index" function
-               (:arguments 
-                  ( ("s" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [127 136])
-                    ("sLen" variable (:type "int") (reparse-symbol arg-sub-list) [137 146])
-                    ("t" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [147 156])
-                    ("tLen" variable (:type "int") (reparse-symbol arg-sub-list) [157 166])
-                    ("pos" variable (:type "int") (reparse-symbol arg-sub-list) [167 175]))                  
-                :type "int")
-                nil [117 549])
-            ("main" function (:type "int") nil [551 586]))          
-      :file "stringIndex.c"
-      :pointmax 587
-      :fsize 842
-      :lastmodtime '(22497 11824 0 0)
-      :unmatched-syntax nil)
     (semanticdb-table "stringIndex.cpp"
       :major-mode 'c++-mode
       :tags 
@@ -288,14 +267,31 @@
       :fsize 1871
       :lastmodtime '(22497 11840 0 0)
       :unmatched-syntax nil)
-    (semanticdb-table "stringIndex.py"
-      :major-mode 'python-mode
-      :tags nil
-      :file "stringIndex.py"
-      :pointmax 4
-      :fsize 403
-      :lastmodtime '(22495 17620 0 0)
-      :unmatched-syntax '(($EOI 4 . 4))))
+    (semanticdb-table "demo.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string.h" include (:system-flag t) nil [20 39])
+            ("mystrcpy" function
+               (:pointer 1
+                :arguments 
+                  ( ("dst" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [56 67])
+                    ("src" variable
+                       (:dereference 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [68 85]))                  
+                :type "char")
+                nil [41 169])
+            ("main" function (:type "int") nil [171 295]))          
+      :file "demo.c"
+      :pointmax 297
+      :fsize 316
+      :lastmodtime '(22507 14403 0 0)
+      :unmatched-syntax nil))
   :file "!drive_e!Learning!Code!LeetCode!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

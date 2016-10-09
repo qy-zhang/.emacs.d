@@ -1,0 +1,26 @@
+;; Object bits/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "bits/"
+  :tables
+  (list
+    (semanticdb-table "char_traits.h"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("_CHAR_TRAITS_H" variable (:constant-flag t) nil [1355 1369])
+            ("bits/stl_algobase.h" include (:system-flag t) nil [1400 1430])
+            ("bits/postypes.h" include (:system-flag t) nil [1458 1484])
+            ("cwchar" include (:system-flag t) nil [1507 1524])
+            ("_GLIBCXX_VISIBILITY" function (:type ("__gnu_cxx" type (:type "class") nil nil)) nil [1587 6864])
+            ("_GLIBCXX_VISIBILITY" function (:type ("std" type (:type "class") nil nil)) nil [6889 12772]))          
+      :file "char_traits.h"
+      :pointmax 17979
+      :fsize 17978
+      :lastmodtime '(22303 49834 0 0)
+      :unmatched-syntax '((DEFAULT 6913 . 6920) (NAMESPACE 6879 . 6888) (DEFAULT 1617 . 1624) (NAMESPACE 1577 . 1586) (symbol 1385 . 1398) (symbol 1381 . 1384) (symbol 1374 . 1380) (punctuation 1373 . 1374))
+      :lexical-table 
+        '(("_CHAR_TRAITS_H" . ((number "1" 1370 . 1371)))
+          )
+))
+  :file "!drive_d!MinGW!lib!gcc!mingw32!5.3.0!include!c++!bits!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

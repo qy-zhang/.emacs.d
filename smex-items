@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ speedbar
+ cua-mode
+ customize-variable
  magit-status
  company-mode
  gdb
  eval-buffer
- git-rebase-mode
- semantic-mode
- package-list-packages
 )
 
 ;; ----- smex-data -----
@@ -19,7 +19,7 @@
  (auto-complete-mode . 2)
  (cedet-version . 3)
  (package-install . 2)
- (speedbar . 1)
+ (speedbar . 2)
  (neotree . 1)
  (run-python . 2)
  (elpy-mode . 2)
@@ -38,4 +38,6 @@
  (gdb-many-windows . 1)
  (company-mode . 2)
  (semantic-ia-fast-jump . 2)
+ (customize-variable . 1)
+ (cua-mode . 8)
 )
