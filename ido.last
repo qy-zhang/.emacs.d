@@ -6,8 +6,8 @@
  ("d:/Program Files/Sublime Text 3/" . "workspace/")
  ("d:/Program Files/" . "Sublime Text 3/")
  ("d:/" . "Program Files/")
- ("e:/Learning/Code/" . "TestLibrary/")
- ("E:/Learning/Code/" . "LeetCode/")
+ ("e:/Learning/Code/" . "workspace/")
+ ("E:/Learning/Code/" . "workspace/")
  ("d:/Emacs/.emacs.d/" . "my-lisps/")
  ("d:/Emacs/" . ".emacs.d/")
  ("F:/Learning/Code/" . "LeetCode/")
@@ -17,10 +17,12 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "E:/Learning/Code/LeetCode/"
+ "e:/Learning/Code/workspace/"
  "d:/Emacs/.emacs.d/my-lisps/"
+ "E:/Learning/Code/workspace/"
  "E:/Learning/Code/Markdown/"
  "E:/Learning/Code/"
+ "E:/Learning/Code/LeetCode/"
  "e:/Learning/Code/LeetCode/"
  "d:/Emacs/.emacs.d/lisps/yasnippet/snippets/cc-mode/"
  "E:/Learning/Code/TestLibrary/"
@@ -37,41 +39,45 @@
 
 ;; ----- ido-work-file-list -----
 (
- "addTwoNumbers.py"
- "demo.c"
- "twoSum.cpp"
- "compile-misc.el"
- "all-complete-settings.el"
- "flycheck-settings.el"
- "threeSum.cpp"
+ "test.cpp"
+ "wakatime-settings.el"
+ "mytime.cpp"
+ "mytime.h"
+ "auto-complete-settings.el"
+ "java-settings.el"
  "c-settings.el"
- "TodoList.org"
- "readFile.java"
+ "flycheck-settings.el"
+ "dev-settings.el"
+ "C++编程思想笔记.markdown"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("E:/Learning/Code/LeetCode/" (22518 2845 0 0) "twoSum.exe" "twoSum.cpp" "twoSum.c" "threeSumClosest.cpp" "threeSum.cpp" "stringToInteger.c" "stringIndex.cpp" "reverseInteger.c" "regularExpressionMatching.c" "QuickSort.c" "longestSubstring.c" "longestCommonPrefix.cpp" "linearlistImplement.c" "linearlist.h" "linearlist.c" "HuffmanCodingImplement.c" "HuffmanCoding.h" "HuffmanCoding.c" "demo.exe" "demo.c" "combinationSum.cpp" "combinationSum.c" "addTwoNumbers.py" "addTwoNumbers.cpp" "addTwoNumbers.c" "../" "./")
+ ("d:/Program Files/Sublime Text 3/workspace/" (22543 19942 0 0) "test.exe" "test.cpp" "test.c" "templateFunc.exe" "templateFunc.cpp" "MFE/" "cppFile.exe" "cppFile.cpp" "../" "./")
 
- ("d:/Emacs/.emacs.d/my-lisps/" (22500 54315 0 0) "yasnippet-settings.el" "web-settings.el" "wakatime-settings.el" "w3m-settings.el" "verilog-settings.el" "util.el" "template-settings.el" "sql-settings.el" "smex-settings.el" "slime-settings.el" "shell-settings.el" "python-settings.el" "org-settings.el" "my-subdirs.el" "my-misc.el" "misc-settings.el" "misc-functions.el" "maxframe-settings.el" "matlab-settings.el" "markdown-settings.el" "macros-settings.el" "latex-settings.el" "keybinding-settings.el" "js-settings.el" "java-settings.el" "idle-highlight-settings.el" "hs-minor-mode-settings.el" "hippie-expand-settings.el" "helm-settings.el" "flycheck-settings.el" "evernote-settings.el" "eval-after-load.el" "edit-settings.el" "edit-misc.el" "dev-settings.el" "compile-misc.el" "cedet-semantic-settings.el" "c-settings.el" "auto-complete-settings.el" "auto-complete+.el" "assembly-settings.el" "appearance-settings.el" "all-complete-settings.el" "../" "./")
+ ("e:/Learning/Code/Markdown/" (22526 57983 0 0) "TodoList.org" "Summary.markdown" "org-learning.org" "MultiFreqEstimation.markdown" "Matlabvarargin.markdown" "EmacsMagit.markdown" "EmacsEvernote.markdown" "Emacs YASnippet Config.markdown" "Daily.org" "C语言接口与实现.markdown" "C内存错误.markdown" "C++编程思想笔记.markdown" "C Language Standard.markdown" "android study.markdown" "../" "./")
 
- ("e:/Learning/Code/LeetCode/" (22500 54173 0 0) "twoSum.exe" "twoSum.cpp" "twoSum.c" "threeSumClosest.cpp" "threeSum.cpp" "stringToInteger.c" "stringIndex.cpp" "reverseInteger.c" "regularExpressionMatching.c" "QuickSort.c" "longestSubstring.c" "longestCommonPrefix.cpp" "linearlistImplement.c" "linearlist.h" "linearlist.c" "HuffmanCodingImplement.c" "HuffmanCoding.h" "HuffmanCoding.c" "demo.c" "combinationSum.cpp" "combinationSum.c" "addTwoNumbers.cpp" "addTwoNumbers.c" "../" "./")
+ ("e:/Learning/Code/" (22527 20850 0 0) "workspace/" "Markdown/" "LeetCode/" ".gitignore" ".git/" "../" "./")
 
- ("d:/Program Files/Sublime Text 3/workspace/" (22500 33105 0 0) "../" "./")
+ ("e:/Learning/Code/LeetCode/" (22543 20928 0 0) "twoSum.cpp" "twoSum.c" "threeSumClosest.cpp" "threeSum.cpp" "stringToInteger.c" "stringIndex.cpp" "reverseInteger.c" "regularExpressionMatching.c" "QuickSort.c" "myPow.exe" "myPow.cpp" "longestSubstring.cpp" "longestSubstring.c" "longestCommonPrefix.cpp" "linearlistImplement.c" "linearlist.h" "linearlist.c" "letterRearrange.cpp" "kaprekarConstant.exe" "kaprekarConstant.cpp" "HuffmanCodingImplement.c" "HuffmanCoding.h" "HuffmanCoding.c" "demo.c" "combinationSum.cpp" "combinationSum.c" "bigFactory.exe" "bigFactory.c" "addTwoNumbers.py" "addTwoNumbers.cpp" "addTwoNumbers.c" "6174.exe" "../" "./")
 
- ("e:/Learning/Code/" (22499 14249 0 0) "Markdown/" "LeetCode/" ".gitignore" ".git/" "../" "./")
+ ("E:/Learning/Code/LeetCode/" (22543 20928 0 0) "twoSum.cpp" "twoSum.c" "threeSumClosest.cpp" "threeSum.cpp" "stringToInteger.c" "stringIndex.cpp" "reverseInteger.c" "regularExpressionMatching.c" "QuickSort.c" "myPow.exe" "myPow.cpp" "longestSubstring.cpp" "longestSubstring.c" "longestCommonPrefix.cpp" "linearlistImplement.c" "linearlist.h" "linearlist.c" "letterRearrange.cpp" "kaprekarConstant.exe" "kaprekarConstant.cpp" "HuffmanCodingImplement.c" "HuffmanCoding.h" "HuffmanCoding.c" "demo.c" "combinationSum.cpp" "combinationSum.c" "bigFactory.exe" "bigFactory.c" "addTwoNumbers.py" "addTwoNumbers.cpp" "addTwoNumbers.c" "6174.exe" "../" "./")
 
- ("E:/Learning/Code/" (22499 14249 0 0) "Markdown/" "LeetCode/" ".gitignore" ".git/" "../" "./")
+ ("E:/Learning/Code/Markdown/" (22526 57983 0 0) "TodoList.org" "Summary.markdown" "org-learning.org" "MultiFreqEstimation.markdown" "Matlabvarargin.markdown" "EmacsMagit.markdown" "EmacsEvernote.markdown" "Emacs YASnippet Config.markdown" "Daily.org" "C语言接口与实现.markdown" "C内存错误.markdown" "C++编程思想笔记.markdown" "C Language Standard.markdown" "android study.markdown" "../" "./")
 
- ("d:/Program Files/Microsoft Visual Studio 14.0/workspace/MFE/MFE/" (22494 20220 0 0) "_kiss_fft_guts.h" "spectrumOfFrame.h" "spectrumOfFrame.c" "nmf_beta.h" "nmf_beta.c" "multiF0Estimation.h" "multiF0Estimation.c" "MFEinterface.c" "MFE.zip" "MFE.vcxproj.filters" "MFE.vcxproj" "MFE.h" "MFE.c" "kiss_fft.h" "kiss_fft.c" "Debug/" "computeH0.h" "computeH0.c" "../" "./")
+ ("E:/Learning/Code/workspace/" (22533 50443 0 0) "useTime.cpp" "useTableTennis.cpp" "useBrass.cpp" "Time.h" "Time.cpp" "test.cpp" "TableTennis.h" "TableTennis.cpp" "Brass.h" "Brass.cpp" "../" "./")
+
+ ("e:/Learning/Code/workspace/" (22533 50443 0 0) "useTime.cpp" "useTableTennis.cpp" "useBrass.cpp" "Time.h" "Time.cpp" "test.cpp" "TableTennis.h" "TableTennis.cpp" "Brass.h" "Brass.cpp" "../" "./")
+
+ ("E:/Learning/Code/" (22527 20850 0 0) "workspace/" "Markdown/" "LeetCode/" ".gitignore" ".git/" "../" "./")
+
+ ("d:/Emacs/.emacs.d/my-lisps/" (22524 54689 0 0) "yasnippet-settings.el" "web-settings.el" "wakatime-settings.el" "w3m-settings.el" "verilog-settings.el" "util.el" "template-settings.el" "sql-settings.el" "smex-settings.el" "slime-settings.el" "shell-settings.el" "python-settings.el" "org-settings.el" "my-subdirs.el" "my-misc.el" "misc-settings.el" "misc-functions.el" "maxframe-settings.el" "matlab-settings.el" "markdown-settings.el" "macros-settings.el" "latex-settings.el" "keybinding-settings.el" "js-settings.el" "java-settings.el" "idle-highlight-settings.el" "hs-minor-mode-settings.el" "hippie-expand-settings.el" "helm-settings.el" "flycheck-settings.el" "evernote-settings.el" "eval-after-load.el" "edit-settings.el" "edit-misc.el" "dev-settings.el" "compile-misc.el" "cedet-semantic-settings.el" "c-settings.el" "auto-complete-settings.el" "auto-complete+.el" "assembly-settings.el" "appearance-settings.el" "all-complete-settings.el" "../" "./")
+
+ ("d:/Program Files/Microsoft Visual Studio 14.0/workspace/MFE/MFE/" (22507 48227 0 0) "_kiss_fft_guts.h" "spectrumOfFrame.h" "spectrumOfFrame.c" "nmf_beta.h" "nmf_beta.c" "multiF0Estimation.h" "multiF0Estimation.c" "MFE.zip" "MFE.vcxproj.filters" "MFE.vcxproj" "MFE.h" "MFE.c" "kiss_fft.h" "kiss_fft.c" "Debug/" "computeH0.h" "computeH0.c" "../" "./")
 
  ("d:/Emacs/.emacs.d/lisps/yasnippet/snippets/cc-mode/" (22494 35938 0 0) "while" "typedef" "ternary" "switch" "struct" "printf" "once" "member_description" "math" "main" "inc.1" "inc" "ifdef" "if" "function_description" "for_n" "for" "fopen" "file_description" "else" "do" "case" "../" "./")
 
  ("E:/Learning/Code/TestLibrary/" (22480 3516 0 0) "cStrcat.exe" "cStrcat.c" "cPrintfEscape.exe" "cPrintfEscape.c" "cFuncVarible.exe" "cFuncVarible.c" "../" "./")
-
- ("e:/Learning/Code/Markdown/" (22481 6532 0 0) "TodoList.org" "Summary.markdown" "org-learning.org" "MultiFreqEstimation.markdown" "Matlabvarargin.markdown" "EmacsMagit.markdown" "EmacsEvernote.markdown" "Emacs YASnippet Config.markdown" "Daily.org" "C内存错误.markdown" "C Language Standard.markdown" "../" "./")
-
- ("E:/Learning/Code/Markdown/" (22481 6532 0 0) "TodoList.org" "Summary.markdown" "org-learning.org" "MultiFreqEstimation.markdown" "Matlabvarargin.markdown" "EmacsMagit.markdown" "EmacsEvernote.markdown" "Emacs YASnippet Config.markdown" "Daily.org" "C内存错误.markdown" "C Language Standard.markdown" "../" "./")
 
  ("e:/Learning/Code/TestLibrary/" (22480 3516 0 0) "cStrcat.exe" "cStrcat.c" "cPrintfEscape.exe" "cPrintfEscape.c" "cFuncVarible.exe" "cFuncVarible.c" "../" "./")
 

@@ -59,7 +59,7 @@
 (require 'idle-highlight-settings)
 
 
-; (show-paren-mode t) ; show the paren
+(show-paren-mode t) ; show the paren
 ; ;; open hs-minor-mode
 ; (am-add-hooks
 ; `(c-mode-common-hook lisp-mode-hook emacs-lisp-mode-hook java-mode-hook
@@ -69,8 +69,8 @@
 
 
 ;; 自动括号补全
-; (require 'electric)
-; (electric-pair-mode t)
+(require 'electric)
+(electric-pair-mode t)
 ; ; 输入左大花扩号自动补齐右大花括号
 ; (eal-define-keys
 ;  `(c-mode-base-map awk-mode-map java-mode-map)

@@ -1,0 +1,75 @@
+;; Object workspace/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "workspace/"
+  :tables
+  (list
+    (semanticdb-table "test.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [22 42])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [53 62])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [63 76]))                  
+                :type "int")
+                nil [44 128]))          
+      :file "test.cpp"
+      :pointmax 129
+      :fsize 138
+      :lastmodtime '(22524 42552 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "mytime.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("mytime.h" include nil nil [21 40])
+            ("Time" function
+               (:constructor-flag t
+                :parent "Time"
+                :type ("Time" type (:type "class") nil nil))
+                nil [42 83])
+            ("Time" function
+               (:constructor-flag t
+                :parent "Time"
+                :type ("Time" type (:type "class") nil nil))
+                nil [85 133])
+            ("AddMin" function
+               (:parent "Time"
+                :arguments 
+                  ( ("m" variable (:type "int") (reparse-symbol arg-sub-list) [153 159]))                  
+                :type "void")
+                nil [135 225])
+            ("TimeAddhr" function
+               (:arguments 
+                  ( ("h" variable (:type "int") (reparse-symbol arg-sub-list) [242 248]))                  
+                :type "void")
+                nil [227 257]))          
+      :file "mytime.cpp"
+      :pointmax 258
+      :fsize 282
+      :lastmodtime '(22524 55122 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "mytime.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("MYTIME_H_" variable (:constant-flag t) nil [27 36]))          
+      :file "mytime.h"
+      :pointmax 297
+      :fsize 315
+      :lastmodtime '(22524 55000 0 0)
+      :unmatched-syntax '((semantic-list 49 . 288) (symbol 44 . 48) (CLASS 38 . 43))
+      :lexical-table 
+        '(("MYTIME_H_")
+          )
+))
+  :file "!drive_e!Learning!Code!workspace!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
