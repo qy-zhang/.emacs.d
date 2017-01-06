@@ -1,12 +1,12 @@
 
 ;; ----- smex-history -----
 (
- semantic-mode
  eval-buffer
+ gdb
+ semantic-mode
  speedbar
  cua-mode
  customize-variable
- magit-status
  package-list-packages
 )
 
@@ -15,7 +15,7 @@
  (emacs-version . 5)
  (package-list-packages . 16)
  (global-company-mode . 1)
- (eval-buffer . 12)
+ (eval-buffer . 16)
  (auto-complete-mode . 2)
  (cedet-version . 3)
  (package-install . 2)
@@ -34,8 +34,8 @@
  (semantic-mode . 3)
  (git-rebase-mode . 2)
  (evernote-browser . 7)
- (gdb . 1)
- (gdb-many-windows . 1)
+ (gdb . 2)
+ (gdb-many-windows . 2)
  (company-mode . 2)
  (semantic-ia-fast-jump . 4)
  (customize-variable . 1)

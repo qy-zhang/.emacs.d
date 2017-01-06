@@ -10,10 +10,12 @@
 (defun c-mode-settings ()
   "Settings for 'c-mode'."
   (defun c-mode-common-hook-settings ()
-    (c-set-style "awk")
+    (setq c-set-style "linux"
+          c-basic-offset 4)
     (c-toggle-hungry-state))
   
   (add-hook 'c-mode-common-hook 'c-mode-common-hook-settings)
+  (add-hook 'c++-mode-hook 'c-mode-common-hook-settings)
   (add-hook 'c-mode-common-hook 'semantic-mode))
 
 

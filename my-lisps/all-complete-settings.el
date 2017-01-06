@@ -7,7 +7,7 @@
 
 (require 'hippie-expand-settings)
 
-; (require 'auto-complete-settings)
+(require 'auto-complete-settings)
 
 (require 'yasnippet-settings)
 

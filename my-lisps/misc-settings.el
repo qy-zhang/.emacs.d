@@ -18,6 +18,8 @@
 (setq make-backup-file nil); nil backup files
 (setq-default make-backup-files nil)
 
+(global-auto-revert-mode t) ; auto-refresh all buffers when files have changed on disk
+
 (setq x-select-enable-clipboard t) ; enable clipboard with outside
 
 (fset 'yes-or-no-p 'y-or-n-p) ; treat y as yes and n as no
